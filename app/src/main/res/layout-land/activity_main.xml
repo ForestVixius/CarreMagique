@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fond"
+    tools:context="fr.victorguegan.carremagique.NiveauJeu"
+    android:baselineAligned="false">
+
+    <GridLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:columnCount="7"
+        android:paddingLeft="20dp"
+        android:paddingTop="65dp"
+        android:rowCount="7">
+
+        <EditText
+            android:id="@+id/case1"
+            android:layout_width="50dp"
+            android:fontFamily="@font/piximisa"
+            android:gravity="center_horizontal"
+            android:hint="\?"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/texteClair" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/case2"
+            android:layout_width="50dp"
+            android:fontFamily="@font/piximisa"
+            android:gravity="center_horizontal"
+            android:hint="\?"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/texteClair" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/case3"
+            android:layout_width="50dp"
+            android:fontFamily="@font/piximisa"
+            android:gravity="center_horizontal"
+            android:hint="\?"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/texteClair" />
+
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="="
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/resultatRow1"
+            android:fontFamily="@font/piximisa"
+            android:text="196"
+            android:textColor="@color/texteClair" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <Space />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <Space />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <Space />
+
+        <Space />
+
+        <EditText
+            android:id="@+id/case4"
+            android:layout_width="50dp"
+            android:fontFamily="@font/piximisa"
+            android:gravity="center_horizontal"
+            android:hint="\?"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/texteClair" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/case5"
+            android:layout_width="50dp"
+            android:fontFamily="@font/piximisa"
+            android:gravity="center_horizontal"
+            android:hint="\?"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/texteClair" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/case6"
+            android:layout_width="50dp"
+            android:fontFamily="@font/piximisa"
+            android:gravity="center_horizontal"
+            android:hint="\?"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/texteClair" />
+
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="="
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/resultatRow2"
+            android:fontFamily="@font/piximisa"
+            android:text="196"
+            android:textColor="@color/texteClair" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <Space />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <Space />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <Space />
+
+        <Space />
+
+        <EditText
+            android:id="@+id/case7"
+            android:layout_width="50dp"
+            android:fontFamily="@font/piximisa"
+            android:gravity="center_horizontal"
+            android:hint="\?"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/texteClair" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/case8"
+            android:layout_width="50dp"
+            android:fontFamily="@font/piximisa"
+            android:gravity="center_horizontal"
+            android:hint="\?"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/texteClair" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/case9"
+            android:layout_width="50dp"
+            android:fontFamily="@font/piximisa"
+            android:gravity="center_horizontal"
+            android:hint="\?"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/texteClair" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="="
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/resultatRow3"
+            android:fontFamily="@font/piximisa"
+            android:text="196"
+            android:textColor="@color/texteClair" />
+
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="=" />
+
+        <Space />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="="
+            android:textSize="20dp" />
+
+        <Space />
+
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center_horizontal"
+            android:text="="
+            android:textSize="20dp" />
+
+        <Space />
+
+        <Space />
+
+        <TextView
+            android:id="@+id/resultatColumn1"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/piximisa"
+            android:text="196"
+            android:textColor="@color/texteClair" />
+
+        <Space />
+
+        <TextView
+            android:id="@+id/resultatColumn2"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/piximisa"
+            android:text="196"
+            android:textColor="@color/texteClair" />
+
+        <Space />
+
+        <TextView
+            android:id="@+id/resultatColumn3"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/piximisa"
+            android:text="196"
+            android:textColor="@color/texteClair" />
+
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_weight="1.25"
+                android:gravity="center_horizontal|center_vertical"
+                android:letterSpacing="0.25"
+                android:shadowColor="@color/ombre"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="2"
+                android:textColor="@color/texteClair"
+                android:textSize="40dp" />
+
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:columnCount="2"
+            android:paddingTop="10dp"
+            android:rowCount="2">
+
+            <Button
+                android:id="@+id/envoyer"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="10dp"
+                android:width="100dp"
+                android:background="@drawable/bouton_bord_rond"
+                android:fontFamily="@font/piximisa"
+                android:text="@string/soumettre"
+                android:textColor="@color/texteClair"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/regles"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:width="100dp"
+                android:background="@drawable/bouton_bord_rond"
+                android:fontFamily="@font/piximisa"
+                android:text="@string/regles"
+                android:textColor="@color/texteClair"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/quitter"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="10dp"
+                android:width="100dp"
+                android:background="@drawable/bouton_bord_rond"
+                android:fontFamily="@font/piximisa"
+                android:text="@string/exit"
+                android:textColor="@color/texteClair"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/indice"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                android:width="100dp"
+                android:background="@drawable/bouton_bord_rond"
+                android:fontFamily="@font/piximisa"
+                android:text="@string/aide"
+                android:textColor="@color/texteClair"
+                android:textSize="18dp" />
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

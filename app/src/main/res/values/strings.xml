@@ -1,0 +1,21 @@
+<resources>
+    <string-array name="tab_niveaux">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string name="app_name">Carré Magique</string>
+    <string name="exit">Quitter</string>
+    <string name="regles">Règles</string>
+    <string name="newgame">Nouvelle Partie</string>
+    <string name="soumettre">Soumettre</string>
+    <string name="lancer">Lancer partie</string>
+    <string name="aide">Indice</string>
+    <string name="choixNiveau">Niveau de diffculté :</string>
+</resources>

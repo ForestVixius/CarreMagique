@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="fr.victorguegan.carremagique.ChoixDifficulte"
+    android:background="@color/fond"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:background="@color/colorPrimary"
+        app:theme="@style/ToolBarTheme" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carré Magique"
+        android:fontFamily="@font/piximisa"
+        android:textSize="20dp"
+        android:textColor="@color/texteClair"
+        android:layout_gravity="center"
+        android:id="@+id/toolbar_title" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="300dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="-150dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_height="200dp"
+        android:src="@drawable/carre"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/piximisa"
+        android:layout_marginLeft="150dp"
+        android:shadowColor="@color/ombre"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="2"
+        android:textColor="@color/texteClair"
+        android:textSize="30dp"
+        android:text="@string/choixNiveau" />
+
+    <Spinner
+        android:id="@+id/selection"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:fontFamily="@font/piximisa"
+        android:textColor="@color/texteClair"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_horizontal|center_vertical"/>
+
+    <Button
+        android:id="@+id/valider"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/piximisa"
+        android:textSize="20dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/texteClair"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="15dp"
+        android:background="@drawable/bouton_bord_rond"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/lancer" />
+
+
+</FrameLayout>
